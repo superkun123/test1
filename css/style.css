@@ -1,0 +1,26 @@
+
+body {
+	display: flex;
+	margin:0 auto;
+	padding: 0 auto;
+
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	outline: 1px solid red;
+	flex:1;
+	justify-content: center;
+}
+
+
+.column{
+	display: flex;
+	outline: 1px solid black;
+	background: green;
+	flex:1;
+	justify-content: center;
+	
+}
